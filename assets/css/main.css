@@ -1,0 +1,83 @@
+ul{
+    list-style-type: none;
+}
+.entry_container{
+    margin:0px;
+    height: 500px;
+    /* background-color: grey; */
+}
+
+header{
+    padding-top: 2%;
+    padding-right:0%;
+}
+
+.link_list h5, .logo{
+    float: left;
+    margin-left: 15px;
+    
+}
+.logo h3{
+    margin-left: 15px;
+    margin-right: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.navbar{
+    width: 70%;
+    margin: 0px;
+}
+.decorator, .second_decorator{
+    float: right;
+    width: 80px;
+    height: 400px;
+    padding: 0px;
+    margin: 0px;
+    background-color: yellow;
+    position: relative;
+    top: 0%;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.second_decorator{
+    position: relative;
+    width: 4px;
+    height: 400px;
+    top: -20%;
+    right: 4%;
+    border-radius: 5px;
+}
+
+.descriptor{
+    width: 76%;
+    height: 73%;
+    /* background-color: pink; */
+    margin-top: 4%;
+    display: flex;
+    position: relative;
+    padding: 10px;
+    flex-wrap: wrap;
+
+}
+.text{
+    height: 100%;
+    /* background-color: rgb(197, 17, 50); */
+    flex: 1;
+    margin-left: 2vw;
+
+}
+.carousel-container{
+    height: 100%;
+    /* background-color: aliceblue; */
+    flex: 3;
+    object-fit: contain;
+    
+    
+}
+
+.carousel {
+    object-fit: contain;
+    width: 600px;
+    height: 100%;
+  }
