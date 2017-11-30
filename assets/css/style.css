@@ -1,15 +1,7 @@
-/*
-
-Template 2085 Neuron
-
-http://www.tooplate.com/view/2085-neuron
-
-*/
-
 body {
 		background: #ffffff;
     font-family: 'Lora', serif;
-    font-style: normal;
+    font-style: italic;
 		font-weight: 300;
     overflow-x: hidden;
 }
@@ -21,7 +13,7 @@ body {
 
 h1,h2,h3,h4,h5,h6 {
   /* font-family: 'Merriweather', serif; */
-  font-style: normal;
+  font-style: italic;
   font-weight: bold;
   letter-spacing: 0.5px;
 }
@@ -169,7 +161,7 @@ a:hover, a:active, a:focus {
    Mobile Responsive         
 -----------------------------------------*/
 
-@media (max-width: 980px) {
+/* @media (max-width: 980px) {
 
   .main-about,
   .main-single-post,  
@@ -178,10 +170,10 @@ a:hover, a:active, a:focus {
     height: 35vh;
   }
 
-}
+} */
 
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
 
   h1 {
     font-size: 52px;
@@ -220,4 +212,4 @@ a:hover, a:active, a:focus {
   }
 
 }
-
+ */

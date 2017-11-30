@@ -1,0 +1,182 @@
+@media only screen and (max-width: 1240px) {
+  .description {
+    flex: 3;
+    padding-top: 117px;
+    padding-left: 5px;
+    padding-right: 4px;
+  }
+  .carousel {
+    object-fit: contain;
+    max-width: 0px;
+    min-width: 400px;
+    height: 100%;
+    padding-top: 80px;
+  }
+  
+}
+
+@media only screen and (max-width: 1200px){
+.description {
+    flex: 3;
+    padding-top: 61px;
+    padding-left: 5px;
+    padding-right: 4px;
+}
+.header_right {
+  flex: 1;
+  display: flex;
+  height: 420px;
+}
+}
+
+@media only screen and (max-width: 850px){
+  .header_right {
+    display: none;
+  }
+  .description {
+    flex: 3;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+  }
+
+@media only screen and (max-width: 774px){
+  .description{
+    padding-top: 0;
+  }
+  .carousel {
+    object-fit: contain;
+    max-width: 600px;
+    min-width: 400px;
+    height: 100%;
+    padding-top: 20px;
+    margin-left: auto;
+  }
+  .logo h3{
+    font-size: 42px;
+  }
+}
+@media only screen and (max-width: 657px){
+  .featured_products {
+    text-align: center;
+    margin-top: 120px;
+}
+.logo h3{
+  font-size: 30px;
+}
+}
+
+@media only screen and (max-width: 414px){
+  h1 {
+    font-size: 48px;
+    padding-bottom: 14px;
+    margin-bottom: 0px;
+  }
+.logo h3{
+  font-size: 51px;
+}
+h1 {
+  font-size: 62px;
+  padding-bottom: 14px;
+  margin-bottom: 0px;
+}
+.nav-bar {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 10px;
+  justify-content: center;
+}
+.description {
+  flex: 3;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.featured_products h3 {
+  margin: -100px 0 30px 0;
+}
+.link_list {
+  
+  margin-top: -26px;
+}
+.thumbnail {
+ 
+  border: none !important;
+}
+.phone {
+  display: flex;
+  margin-left: 10px;
+}
+.whatsapp{
+  margin-right: 10px;
+}
+.instagram {
+  background-image: url(../images/instagram.png);
+  margin-right: 0;
+}
+.logo {
+  margin-right: 0px;
+  font-family: roboto;
+}
+}
+
+@media only screen and (max-width: 375px){
+  .input{
+    width: 95%
+  }
+  .footer_nav{
+    margin-top: 0px;
+  }
+  h1 {
+    font-size: 31px;
+    padding-bottom: 14px;
+    margin-bottom: 0px;
+}
+  .thumbnail {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: none !important;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+  .author {
+    text-align: center;
+    margin: 10px 0;
+    padding-left: 0;
+  }
+  .logo h3 {
+    font-size: 40px;
+  }
+  .bottom_logo h3{
+    font-size: 30px !important;
+  }
+  .logo {
+    margin-right: 0px;
+    font-family: roboto;
+  }
+  .carousel {
+    object-fit: contain;
+    max-width: 600px;
+    min-width: 300px;
+    height: 100%;
+    padding-top: 20px;
+    margin-left: auto;
+}
+  .description {
+    flex: 3;
+    margin-left: 0px; 
+    margin-right: 0px;
+    margin: auto;
+}
+  .thumbnail div {
+    flex: 1;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.instagram {
+  background-image: url(../images/instagram.png);
+  margin-right: 0;
+}
+}
