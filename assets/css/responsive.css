@@ -90,6 +90,7 @@ h1 {
   flex: 3;
   margin-left: 10px;
   margin-right: 10px;
+  text-align: center;
 }
 .featured_products h3 {
   margin: -100px 0 30px 0;
@@ -169,6 +170,7 @@ h1 {
     margin-left: 0px; 
     margin-right: 0px;
     margin: auto;
+    text-align: center;
 }
   .thumbnail div {
     flex: 1;
