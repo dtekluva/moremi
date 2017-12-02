@@ -40,9 +40,24 @@
 }
   }
 
-@media only screen and (max-width: 774px){
+@media only screen and (max-width: 770px){
   .description{
     padding-top: 0;
+  }
+  .carousel-indicators {
+    bottom: 50px;
+  }
+  .description h5 {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .description h1 {
+    margin-top: 48px;
+    text-align: center;
+  }
+  .description h3 {
+    margin-top: -12px;
+    text-align: center;
   }
   .carousel {
     object-fit: contain;
@@ -50,7 +65,11 @@
     min-width: 400px;
     height: 100%;
     padding-top: 20px;
-    margin-left: auto;
+    margin-left: 110px !important;
+  }
+  .link_list {
+    display: flex;
+    margin-top: -48px;
   }
   .logo h3{
     font-size: 42px;
@@ -60,6 +79,18 @@
   .featured_products {
     text-align: center;
     margin-top: 120px;
+}
+.carousel-indicators {
+  bottom: 50px;
+  display: none;
+}
+.carousel {
+  object-fit: contain;
+  max-width: 600px;
+  min-width: 400px;
+  height: 100%;
+  padding-top: 20px;
+  margin-left: 37px !important;
 }
 .logo h3{
   font-size: 30px;
@@ -72,8 +103,24 @@
     padding-bottom: 14px;
     margin-bottom: 0px;
   }
+  .carousel {
+    object-fit: contain;
+    max-width: 600px;
+    min-width: 400px;
+    height: 100%;
+    padding-top: 20px;
+    margin-left: 0px !important;
+  }
 .logo h3{
   font-size: 51px;
+}
+.carousel {
+  object-fit: contain;
+  max-width: 600px;
+  min-width: 400px;
+  height: 100%;
+  padding-top: 20px;
+  margin-left: auto;
 }
 h1 {
   font-size: 62px;
@@ -124,6 +171,10 @@ h1 {
   .input{
     width: 95%
   }
+  #bottom_link {
+    margin-top: -20px;
+    margin-left: 15px;
+}
   .footer_nav{
     margin-top: 0px;
   }

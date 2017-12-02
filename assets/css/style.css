@@ -4,6 +4,7 @@ body {
     font-style: italic;
 		font-weight: 300;
     overflow-x: hidden;
+    color: #4f2c59;
 }
 
 
@@ -11,12 +12,23 @@ body {
     Typorgraphy              
 -----------------------------------------*/
 
-h1,h2,h3,h4,h5,h6 {
-  /* font-family: 'Merriweather', serif; */
+h1,h2,h4,h5,h6 {
+  font-family: 'Roboto', sans-serif;
   font-style: italic;
   font-weight: bold;
   letter-spacing: 0.5px;
 }
+h3{
+  font-family: "Roboto-light";
+  font-style: italic;
+}
+@font-face {
+  font-family: "Roboto-light";
+  src: url("../fonts/Roboto-Light.ttf");
+  
+  }
+  
+  
 
 h1 {
     font-size: 62px;
