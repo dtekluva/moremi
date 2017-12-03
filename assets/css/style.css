@@ -27,8 +27,6 @@ h3{
   src: url("../fonts/Roboto-Light.ttf");
   
   }
-  
-  
 
 h1 {
     font-size: 62px;
@@ -78,14 +76,14 @@ html{
 }
 
 a {
-  color: #4d638c;
+  color: #4f2c59;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
   text-decoration: none !important;
 }
 a:hover, a:active, a:focus {
-  color: #4d638c;
+  color: #fdfdfd;
   outline: none;
 }
 
