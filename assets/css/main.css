@@ -286,13 +286,13 @@ margin: 40px 0 30px 0;
     display:flex;
 }
 
-.whatsapp_img{
+.whatsapp_img {
     height: 30px;
-    width: 40px;
+    width: 30px;
     flex: 1;
     background-size: cover;
     background-image: url(../images/whatsapp2.png);
-    border-radius: 50%;
+    border-radius: 0;
     margin-top: 0px;
     margin-right: 10px;
 }

@@ -25,11 +25,35 @@
     padding: 0 60px;
 }
 .phone_img, .whatsapp_img {
-    
     flex: none;  
+    margin-bottom:21px
 }
 .location span{
     text-align: left;
+}
+.location{
+    display: flex;
+    color: #4f2c59;
+}
+.location .glyphicon{
+    padding-top:5px;
+    
+}
+.buy_our_products{
+    margin-top: 111px;
+    margin-bottom:31px;
+    text-align: left; 
+}
+.address_title{
+    margin-top: 50px !important;
+    text-align: left;
+}
+.whatsapp_number, .call_number{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    color: #4f2c59;
 }
 
 .top div{
