@@ -208,7 +208,7 @@ h1 {
 }
 .logo {
   margin-right: 0px;
-  font-family: roboto;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .yellow_bar_container .call_us div, .yellow_bar_container .truck div  {
   max-width: 100px;
@@ -315,7 +315,7 @@ h1 {
 }
 .location {
   text-align: center;
-  font-family: Roboto;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 10px;
   font-weight: 500;
   font-style: italic;
