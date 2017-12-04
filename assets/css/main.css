@@ -5,10 +5,7 @@ ul{
     width: 100%;
     /* background-color: rgb(204, 203, 203); */
 }
-.catalog-container{
-    width: 1280px;
-    margin: auto;
-}
+
 
 header{
     min-height: 500px;
