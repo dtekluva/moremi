@@ -60,6 +60,9 @@
   .description{
     padding-top: 0;
   }
+  .feint_moremi{
+    display:none;
+  }
   .carousel-indicators {
     bottom: 50px;
   }
@@ -148,6 +151,9 @@
     padding-bottom: 14px;
     margin-bottom: 0px;
   }
+  .logo_top h3 {
+    margin-top: 0px;
+}
   .carousel {
     object-fit: contain;
     max-width: 600px;

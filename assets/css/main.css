@@ -85,7 +85,7 @@ a{
     margin-top: 44px;
     font-size: 21px;
     color:#4f2c59;
-    transition: all 0.3s ease;    
+    transition: all 0.1s ease;    
 }
 h5{
     padding: 0 3px;
@@ -93,8 +93,9 @@ h5{
 }
 
 a:hover{
-    background-color: #fbda52;
+    color: #4f2c59;
     border-bottom:solid #4f2c59;
+    border-bottom-width: 2px;
 }
 .main{
     width: 100%;
@@ -252,8 +253,8 @@ margin: 40px 0 30px 0;
 }
 
 .price{
-    font-size: 20px;
-    font-weight: bold;
+    font-weight: 900 !important;
+    font-size: 24px;
     margin-left: 30px;
 }
 
@@ -310,7 +311,7 @@ margin: 40px 0 30px 0;
     width: 30px;
     flex: 1;
     background-size: cover;
-    background-image: url(../images/phone.png);
+    background-image: url(../images/call-answe-purpler.png);
     border-radius: 50%;
     margin-top: 0px;
     margin-right: 10px;
@@ -324,7 +325,7 @@ margin: 40px 0 30px 0;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-top: 50px;
+    margin-top: 0px;
 
 }
 #bottom_link{
@@ -334,12 +335,12 @@ margin: 40px 0 30px 0;
 .social{
     display: flex;
     justify-content: space-between;
-    margin-top: 10px;
+    margin-top: 25px;
 }
 
 .facebook, .twitter, .instagram{
-    height: 30px;
-    width: 30px;
+    height: 20px;
+    width: 20px;
     flex: 1;
     background-size: cover;
     border-radius: 10%;
@@ -351,15 +352,12 @@ margin: 40px 0 30px 0;
     background-image: url(../images/facebook.png);    
 }
 
-.twitter{
-    background-image: url(../images/twitter.png);    
-}
 .instagram{
     background-image: url(../images/instagram.png);
     
 }
 .author{
     text-align: center;
-    margin: 40px 0;
+    margin: 10px 0;
     padding-left: 44px;
 }

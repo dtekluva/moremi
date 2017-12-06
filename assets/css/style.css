@@ -1,7 +1,8 @@
 body {
 		background: #ffffff;
-    font-family: 'Lora', serif;
+    font-family: roboto;
     font-style: italic;
+    font-size: 18px;
 		font-weight: 300;
     overflow-x: scroll;
     color: #4f2c59;
@@ -83,7 +84,7 @@ a {
   text-decoration: none !important;
 }
 a:hover, a:active, a:focus {
-  color: #fdfdfd;
+  color: #4f2c59;
   outline: none;
 }
 
