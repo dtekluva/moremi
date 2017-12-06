@@ -154,6 +154,40 @@
   .logo_top h3 {
     margin-top: 0px;
 }
+.catalog-container {
+  width: 100%;
+  margin: auto;
+  padding: 0 0px;
+}
+.catalog_yellow_bar {
+  width: 362px;
+  background-color: #fbda52;
+  height: 876px;
+  display: none;
+}
+.main_small_image_mid {
+  margin: auto;
+  margin-bottom: 35px;
+  text-align: left;
+}
+.main_small_image_left, .main_small_image_right {
+  margin: auto;
+  margin-bottom: 35px;
+  text-align: left;
+}
+.author {
+  text-align: center;
+  margin: auto;
+  padding-left: 0;
+}
+.top_image_cont {
+  display: none;
+}
+.small_image {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -340px;
+}
   .carousel {
     object-fit: contain;
     max-width: 600px;
