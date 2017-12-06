@@ -266,7 +266,7 @@ margin: 40px 0 30px 0;
 
 .contact_bar{
     width: 100%;
-    background-color: #614469;
+    background-color: #4f2c59;
     margin-top: 40px;
     text-align: center;
     padding-top: 30px;
@@ -282,6 +282,7 @@ margin: 40px 0 30px 0;
     justify-content: space-evenly;
     width: 60%;
     margin: auto;
+    padding: 0 207px;
 
 }
 .whatsapp{
@@ -289,8 +290,8 @@ margin: 40px 0 30px 0;
 }
 
 .whatsapp_img {
-    height: 30px;
-    width: 30px;
+    height: 20px;
+    width: 20px;
     flex: 1;
     background-size: cover;
     background-image: url(../images/whatsapp2.png);
@@ -308,11 +309,11 @@ margin: 40px 0 30px 0;
 }
 
 .phone_img{
-    height: 30px;
-    width: 30px;
+    height: 20px;
+    width: 20px;
     flex: 1;
     background-size: cover;
-    background-image: url(../images/call-answe-purpler.png);
+    background-image: url(../images/call-answer.png);
     border-radius: 50%;
     margin-top: 0px;
     margin-right: 10px;
