@@ -86,6 +86,10 @@
     margin: auto;
     margin-bottom: 20px;    
 }
+.top_image .image img{
+    width: 571px;
+    height: 378px;   
+}
 .top_image div{
     text-align: center;
     margin: auto;
@@ -115,6 +119,12 @@
     width: 360px;
     height: 348px;
     background-image: url("../images/kitchen.jpg");
+    margin: auto;
+    margin-bottom: 20px;
+}
+.small_image .image img{
+    width: 360px;
+    height: 348px;
     margin: auto;
     margin-bottom: 20px;
 }
