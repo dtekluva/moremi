@@ -2,17 +2,17 @@ const image_array     = [
                             {
                                 name: "Electric cupcake maker", 
                                 image : "kitchen.jpg",
-                                price : "₦ 300" 
+                                price : "₦ 200" 
                             },
                             {
-                                name: "Electric cupcake maker",
+                                name: "Electric  maker",
                                 image : "kitchen2.jpg", 
-                                price : "₦ 300" 
+                                price : "₦ 800" 
                             },
                             {
-                                name: "Electric cupcake maker", 
+                                name: "Cupcake maker Electric ", 
                                 image : "kitchen3.jpg", 
-                                price : "₦ 300" 
+                                price : "₦ 500" 
                             } ,
                             {
                                 name: "New utensil", 
@@ -54,5 +54,6 @@ const image_array     = [
                                 image : "utencil3.jpg", 
                                 price : "₦ 100" 
                             } ,
+                            
                             
                         ];

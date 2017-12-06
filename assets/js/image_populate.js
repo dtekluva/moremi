@@ -9,21 +9,19 @@ random_index = Math.floor(Math.random() * 10 + 1); //add a random image to top
 var index = 1;
 
 
-console.log(top_image_entry);
-console.log(image_array[0].image);
-console.log(index_target);
+function index_populator(){
 
+  index_target[0].innerHTML =" ";
 
-index_target[0].innerHTML =" ";
+  while (index < 4) {
 
-while (index < 4) {
+      index_target[0].innerHTML += '<div class="target"><div class="image"><img src="product_images/' + image_array[random_index + index ].image + '" alt=""></div><div><span>' + image_array[random_index + index ].name + '</span><span class="price">' +  image_array[random_index + index ].price + '</span></div></div>' ;
+      console.log("working");
+      
+      index += 1;
 
-    index_target[0].innerHTML += '<div class="target"><div class="image"><img src="product_images/' + image_array[random_index + index ].image + '" alt=""></div><div><span>' + image_array[random_index + index ].name + '</span><span class="price">' +  image_array[random_index + index ].price + '</span></div></div>' ;
-    console.log("working");
-    
-    index += 1;
-
-  }
+    }
+};
 
 /*-------------------------------------------------------------------------------
 Populate top bar
@@ -65,7 +63,7 @@ function add_lower_images() {
 };
 
 /*-------------------------------------------------------------------------------
-Function CALLS
+Function CALLS from body onload
 -------------------------------------------------------------------------------*/
 
 
