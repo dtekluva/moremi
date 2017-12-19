@@ -7,6 +7,7 @@ var index_target = document.getElementsByClassName('thumbnail');//index page pop
 var new_array = [];
 random_index = Math.floor(Math.random() * 10 + 1); //add a random image to top
 var index = 1;
+var num_imgs = 30
 
 
 function index_populator(){
@@ -16,7 +17,7 @@ function index_populator(){
   while (index < 4) {
 
       index_target[0].innerHTML += '<div class="target"><div class="image"><img src="product_images/' + image_array[random_index + index ].image + '" alt=""></div><div><span>' + image_array[random_index + index ].name + '</span><span class="price">' +  image_array[random_index + index ].price + '</span></div></div>' ;
-      console.log("working");
+      //console.log("working");
       
       index += 1;
 
@@ -28,17 +29,18 @@ Populate top bar
 -------------------------------------------------------------------------------*/
 function add_top_image() {
   top_image_entry[0].innerHTML = '<div class="image"><img src="product_images/' + image_array[random_index].image + '" alt=""></div><div><span class="product_name">' + image_array[random_index].name + '</span><span class="upmost_price">' + image_array[random_index].price + '</span></div>';
-  add_lower_images();
+  add_lower_images(image_array.slice((0),(num_imgs)));
 };
 
 /*-------------------------------------------------------------------------------
 Populate lower images
 -------------------------------------------------------------------------------*/
 
-function add_lower_images() {
-  image_array.forEach(function (element, index) {
+function add_lower_images(new_imgs) {
+  //console.log(image_array.length)
+  new_imgs.forEach(function (element, index) {
     new_array.push(element);
-    console.log(new_array);
+    //console.log(new_array);
     if (index === 1) {
       image_entries[0].innerHTML = "";
     }
@@ -62,6 +64,51 @@ function add_lower_images() {
   });
 };
 
+function divide_screens(){
+  var ul_target = document.querySelector('.pagination');
+  num_of_screens = image_array.length/num_imgs;
+  // if(image_array.length%30){
+  //   num_of_screens += 1;
+  // };
+  for (var i = 0; i < num_of_screens ; i++){
+    var new_li = document.createElement("li");
+    var new_a_tag = document.createElement("a");
+    new_a_tag.innerHTML = "PAGE " + (i + 1);
+    new_li.className = "pagination_target";
+    new_li.id = i + 1;
+    new_li.appendChild(new_a_tag);
+    ul_target.appendChild(new_li);
+  };
+  return true
+}
+
+divide_screens()
+
+var btns = document.querySelectorAll(".pagination_target");
+
+for (const key in btns) {
+  if (btns.hasOwnProperty(key)) {
+    const element = btns[key];
+    element.addEventListener("click", (e)=>{
+      $('.preloader').fadeIn(800); // set duration in brackets    
+      $('.preloader').fadeOut(800); // set duration in brackets
+      val = e.target.innerHTML
+    console.log((val).substr(val.length - 1))
+     send_array((val).substr(val.length - 1));
+    })
+  }
+}
+
+function send_array(ref){
+  setTimeout(function(){
+    new_imgs = image_array.slice((num_imgs*(ref-1)),(num_imgs*ref));
+    console.log(new_imgs);
+    add_lower_images(new_imgs)
+  }, 1000)
+};
+
+
+
 /*-------------------------------------------------------------------------------
 Function CALLS from body onload
 -------------------------------------------------------------------------------*/
@@ -80,7 +127,7 @@ Function CALLS from body onload
 
 
 // /*-------------------------------------------------------------------------------
-// All variables
+// All variables(original code in ES6)
 // -------------------------------------------------------------------------------*/
 //   const image_entries   = document.getElementsByClassName('image_target');
 //   const top_image_entry = document.getElementsByClassName('top_image');
